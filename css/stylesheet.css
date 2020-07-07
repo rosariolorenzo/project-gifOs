@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-visits {
+  width: 100%;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  box-shadow: 0 1px 0 0 #110038;
+}
+.header-visits p {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+.container-title {
+  display: flex;
+  margin-top: 35px;
+  align-items: center;
+  padding-bottom: 19px;
+  width: 1200px;
+  margin: 35px auto 0;
+}
+.container-title .logo {
+  width: 102.6px;
+  height: 64px;
+  margin-left: 91px;
+}
+.container-title .btns-title {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+.container-title .btns-title .dropdown-container {
+  display: flex;
+}
+.container-title .btns-title .btn-theme {
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0 20px;
+}
+
+.btn-create-gifos,
+.btn-theme {
+  height: 36px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  padding-top: 9px;
+  padding-left: 26.5px;
+  margin-right: 16px;
+}
+.btn-create-gifos a,
+.btn-theme a {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.btn-create-gifos {
+  width: 144px;
+}
+
+.btn-my-gifos {
+  padding-left: 16.5px;
+  padding-top: 9px;
+  width: 131px;
+}
+.btn-my-gifos a {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.container-search {
+  width: 1200px;
+  height: 99px;
+  flex-direction: column;
+  max-width: 1200px;
+}
+
+.search-header {
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  padding-left: 3px;
+}
+
+.input-search {
+  width: 1057px;
+  height: 48px;
+  padding: 12px 8px 15px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.container-search-grey {
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  padding: 12px 8px 12px 15px;
+  display: flex;
+}
+
+.container-btn {
+  padding-top: 6px;
+  display: flex;
+  background: #E6E6E6;
+  border: 1px solid #808080;
+  box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  height: 36px;
+  width: 102px;
+  margin-top: 8px;
+  margin-left: 8px;
+  justify-content: center;
+}
+
+.img-lupa {
+  width: 16px;
+  height: 16px;
+}
+
+.btn-search a {
+  text-decoration: none;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #B4B4B4;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 11.8px;
+}
+
+.container-gifs {
+  padding-right: 100px;
+  padding-left: 104px;
+}
+.container-gifs .input-suggestions {
+  width: 100%;
+  margin-top: 64px;
+}
+
+.wrapper-gifs {
+  display: flex;
+  flex-direction: row;
+  margin-top: 19px;
+}
+.wrapper-gifs .gifs {
+  background-color: grey;
+  height: 280px;
+  width: 100%;
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

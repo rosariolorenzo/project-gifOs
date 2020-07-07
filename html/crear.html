@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheet/light.css">
+    <link rel="stylesheet" href="../stylesheet/dark.css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+</head>
+<body  id ="body-id" class="light">
+    <div class="header-visits">
+        <p>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</p>
+    </div>
+    <div class="container-title">
+        <div class="logo">
+            <div class="logo-light">
+                <a href="../index.html"><img  class="img-logo-arrow" src="../img/arrow.svg" alt="Atrás"></a>
+                <img class="img-logo-light" src="../img/gifOF_logo.png" alt="Logo light">
+            </div>
+            <div class="logo-dark">
+                <a href="../index.html"><img class="img-logo-arrow-dark" src="../img/arrow.svg" alt="Atrás"></a>
+                <img class="img-logo-dark" src="../img/gifOF_logo_dark.png" alt="Logo night">
+            </div>
+        </div>
+    </div>
+    <div class="container-create-giff">
+        <div id="welcome-container" class="welcome-container">
+            <div id="header-create"class="header-create">Crear Guifos</div>
+            <div class="container-create-title">
+                <div class="img-window"> <img src="../img/windowimg.png" alt="Window"> </div>
+                <p class="p-create"> <span class="bold"> Aquí podrás crear tus propios guifos </span></p>
+            </div>
+            <div class="container-p">
+                <div class="p-steps"> Crear tu <span class="italic">guifo</span> es muy fácil, graba 
+                    cualquier imagen con tu cámara y obtén guifos personalizados. Los pasos para crear tu guifo son:
+                    <ul class="list-steps">
+                        <li class="item-steps"><p><span class="bold">1) </span> Dar permisos de acceso a la cámara (sólo por el tiempo de uso)</p></li>
+                        <li class="item-steps"><p><span class="bold">2)</span> Capturar tu momento guifo</p></li>
+                        <li class="item-steps"><p><span class="bold">3)</span> Revisar el momento</p></li>
+                        <li class="item-steps"><p><span class="bold">4)</span> Listo para subir y compartir!</p></li>
+                    </ul>
+                </div>
+                <div class="p-start">¿Quieres comenzar a crear tu <span class="italic">guifos</span> ahora?</div>
+            </div>
+            <div class="btn-container-create">
+                <div class="btn-container cancel"> <a href="/index.html">Cancelar</a></div>
+                <div id="btnStart" class="btn-container start"> <a href="#"> Comenzar</a></div>
+            </div>
+        </div>
+        <div id="capture-container" class="capture-container">
+            <div class="header-video">Crear Guifos
+                <img class="img-close" src="../img/button3.svg" alt="close">
+            </div>
+            <div id="container-finish">
+                <div class="container-video">
+                    <video class="video-record" id="video-record" src="#"></video>
+                    <img class="img-giff" id="img-giff" src="#" alt="my giffo">
+                </div>
+                <div id="actions-toolbar" class="actions-toolbar">
+                    <div class="contador" id="contador"></div>
+                    <div class ="capture-record" id="capture-record">
+                        <div class="img-container"><img class="img-capture" src="../img/camera.svg" alt="capturar"> </div>
+                        <div class="capture">Capturar</div> 
+                    </div>
+                    <div class="btn-grabar-giff" id="btn-grabar-giff">Repetir Captura</div>
+                    <div class="btn-subir-giff" id="btn-subir-giff">Subir Guifo</div>
+                </div>
+                <div class="container-loading" id="container-loading">
+                    <img src="../img/globe_img.png" alt="Cargando...">
+                    <div>Estamos subiendo tu Guifo...</div>
+                    <div> Esto puede tomar algunos minutos</div>
+                    <div class="loading">
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                        <div class="step-load"></div>
+                    </div>
+                </div>
+                <div id="finish-actions" class="finish-actions">
+                    <div id="copy-gif" class="copy-gif">Copiar Enlace Guifo</div>
+                    <div id="dowload-gif" class="dowload-gif">Descargar Guifo</div>
+                    <div class="finish-ready">Listo</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container-my-giffos" class="container-my-giffos">
+        <div id="my-giffos" class="my-giffos">Mis guifos</div>
+        <div id="wrapper-my-giff" class="wrapper-my-giff">
+          
+        </div>
+    </div>
+   
+
+
+<script src="../js/create.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.5.8/RecordRTC.js"></script>
+</body>
+
+</html>

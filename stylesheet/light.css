@@ -1,0 +1,712 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.light {
+  background-color: #FFF4FD;
+}
+.light .header-visits {
+  color: #FFFFFF;
+  width: 100%;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  box-shadow: 0 1px 0 0 #110038;
+}
+.light .header-visits p {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+.light .container-title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 19px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 35px auto 0;
+}
+.light .container-title .logo {
+  max-width: 102.6px;
+  width: 100%;
+  height: 64px;
+}
+.light .container-title .logo .logo-dark {
+  display: none;
+}
+.light .container-title .logo .logo-light {
+  display: flex;
+}
+.light .container-title .logo .logo-light .img-logo-arrow {
+  margin-right: 7px;
+}
+.light .btns-title {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+.light .btns-title .dropdown-container {
+  display: flex;
+  position: relative;
+}
+.light .btns-title .dropdown-container .btn-theme {
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0 20px;
+}
+.light .btns-title .dropdown-container .dropdown-theme {
+  display: none;
+  margin-top: 35px;
+  position: absolute;
+  flex-direction: column;
+  width: 176px;
+  height: 102px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+.light .btns-title .dropdown-container .dropdown-theme .theme-item {
+  list-style-type: none;
+  padding-top: 7px;
+  padding-left: 16px;
+  height: 36px;
+  width: 150px;
+  background: #F0F0F0;
+  border: 1px solid #808080;
+  box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  margin: 10px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+.light .btns-title .dropdown-container .dropdown-theme .theme-item a {
+  text-decoration: none;
+}
+.light .btn-create-gifos,
+.light .btn-theme {
+  height: 36px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  padding-top: 9px;
+  padding-left: 26.5px;
+  margin-right: 16px;
+}
+.light .btn-create-gifos a,
+.light .btn-theme a {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+  text-decoration: none;
+}
+.light .btn-create-gifos:hover {
+  border: 1px solid #110038;
+}
+.light .btn-my-gifos:hover {
+  border: 1px solid #110038;
+}
+.light .btn-theme:hover {
+  border: 1px solid #110038;
+}
+.light .btn-search:active {
+  border: 1px solid #110038;
+}
+.light .btn-create-gifos {
+  width: 144px;
+  cursor: pointer;
+}
+.light .btn-my-gifos {
+  padding-left: 16.5px;
+  padding-top: 9px;
+  width: 131px;
+}
+.light .btn-my-gifos a {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-decoration: none;
+}
+.light .underline {
+  text-decoration: underline;
+}
+.light .container-search {
+  height: 99px;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.light .search-header {
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  padding-left: 3px;
+}
+.light .search {
+  max-width: 1057px;
+  width: 100%;
+}
+.light .input-search {
+  width: 100%;
+  height: 48px;
+  padding: 12px 8px 15px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+.light .container-search-grey {
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  padding: 12px 8px 12px 15px;
+  display: flex;
+}
+.light .container-btn {
+  padding-top: 6px;
+  display: flex;
+  background: #E6E6E6;
+  border: 1px solid #808080;
+  box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  height: 36px;
+  width: 102px;
+  margin-top: 8px;
+  margin-left: 8px;
+  justify-content: center;
+}
+.light .img-lupa {
+  width: 16px;
+  height: 16px;
+}
+.light .btn-search a {
+  text-decoration: none;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #B4B4B4;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 11.8px;
+}
+.light .container-search-hidden {
+  display: none;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  max-width: 1200px;
+  height: 160px;
+  width: 100%;
+  padding-top: 17px;
+  padding-bottom: 5px;
+  position: absolute;
+  z-index: 2;
+}
+.light .container-search-hidden .search-result {
+  max-width: 1055px;
+  width: 100%;
+  height: 34px;
+  background-color: #F0F0F0;
+  margin-left: 16px;
+  margin-bottom: 11px;
+  background: #F0F0F0;
+  border: 1px solid #808080;
+  box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 22px;
+  padding-left: 16px;
+  padding-top: 5px;
+}
+.light .div-search {
+  display: none;
+  padding: 7px 0 7px 7px;
+  width: 100%;
+  height: 32px;
+  margin-top: 64px;
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #110038;
+  letter-spacing: 0;
+}
+.light .wrapper-gifs-search {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.light .wrapper-gifs-search .gifs-search {
+  margin-bottom: 16px;
+  max-width: 288px;
+  width: 100%;
+  height: 298px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+.light .wrapper-gifs-search .gifs-search .giff-search {
+  max-width: 288px;
+  height: 298px;
+  width: 100%;
+}
+.light .giffos-suggestions {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 19px;
+}
+.light .container-giffos {
+  margin-top: 64px;
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.light .suggestions {
+  padding: 7px 0 7px 7px;
+  width: 100%;
+  height: 32px;
+  margin-top: 64px;
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #110038;
+  letter-spacing: 0;
+}
+.light .wrapper-giffos {
+  max-width: 280px;
+  width: 100%;
+  height: 304px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+.light .wrapper-giffos .name-giffos {
+  max-width: 280px;
+  width: 100%;
+  height: 24px;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.light .wrapper-giffos .name-giffos p {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+.light .wrapper-giffos .name-giffos .close-icon {
+  width: 16px;
+  height: 14px;
+  margin-right: 8px;
+}
+.light .wrapper-giffos .btn-more {
+  margin-top: 231px;
+  margin-left: 7px;
+  max-width: 81px;
+  width: 100%;
+  height: 34px;
+  background: #4180F6;
+  border: 1px solid #4C2F99;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+  text-align: center;
+}
+.light .wrapper-giffos .btn-more a {
+  padding-top: 6px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 18px;
+  font-weight: lighter;
+}
+.light .wrapper-giffos .giffos {
+  max-width: 280px;
+  height: 280px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.light .wrapper-giffos .giffos .giff {
+  max-width: 280px;
+  height: 280px;
+  width: 100%;
+}
+.light .wrapper-giffos .giffos .gif {
+  max-width: 100%;
+  width: 100%;
+  height: 280px;
+}
+.light .container-giffos-trending {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.light .container-giffos-trending .trending {
+  padding: 7px 0 7px 7px;
+  width: 100%;
+  height: 32px;
+  margin-top: 64px;
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #110038;
+  letter-spacing: 0;
+}
+.light .container-giffos-trending .wrapper-giffs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.light .container-giffos-trending .wrapper-giffs .gifs-trending {
+  margin-bottom: 16px;
+  max-width: 288px;
+  width: 100%;
+  height: 298px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+.light .container-giffos-trending .wrapper-giffs .gifs-trending .giff-trending {
+  max-width: 288px;
+  height: 298px;
+  width: 100%;
+}
+.light .welcome-container {
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  display: flex;
+  width: 684px;
+  height: 386px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.light .welcome-container .header-create {
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  width: 100%;
+  height: 25px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  padding-left: 7px;
+  padding-top: 3px;
+}
+.light .welcome-container .container-create-title {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+.light .welcome-container .container-create-title .img-window {
+  margin-right: 16px;
+}
+.light .welcome-container .container-p {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 20px;
+  align-items: center;
+  height: 190px;
+  width: 518px;
+  margin: 0 auto;
+}
+.light .p-start {
+  margin-top: 8px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+.light .italic {
+  font-style: italic;
+  font-weight: bold;
+}
+.light .bold {
+  font-weight: bold;
+}
+.light .list-steps {
+  list-style: none;
+  margin-top: 6px;
+}
+.light .list-steps .item-steps {
+  margin-top: 10px;
+}
+.light .btn-container-create {
+  display: flex;
+  margin-top: 28px;
+  margin-left: 344px;
+  cursor: pointer;
+}
+.light .btn-container {
+  width: 144px;
+  height: 36px;
+  text-align: center;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0;
+  display: flex;
+}
+.light .btn-container a {
+  text-decoration: none;
+  margin: auto;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+.light .cancel {
+  background: #FFF4FD;
+  margin-right: 16px;
+}
+.light .start {
+  background: #F7C9F3;
+}
+.light .container-my-giffos .my-giffos {
+  padding: 7px 0 7px 7px;
+  width: 100%;
+  height: 32px;
+  margin-top: 153px;
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #110038;
+  letter-spacing: 0;
+}
+.light .capture-container, .light .btn-subir-giff, .light .btn-grabar-giff, .light .img-giff {
+  display: none;
+  cursor: pointer;
+}
+.light .container-video {
+  width: 100%;
+  max-height: 432px;
+  overflow: hidden;
+  padding: 5px 14px;
+}
+.light .container-video .video-record {
+  width: 100%;
+  max-width: 832px;
+}
+.light .capture-container {
+  max-width: 860px;
+  width: 100%;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.light .capture-container .header-video {
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  width: 100%;
+  height: 25px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  padding-left: 7px;
+  padding-top: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+.light .capture-container .header-video .img-close {
+  margin: 4px;
+}
+.light .capture-container .actions-toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 14px;
+}
+.light .capture-container .capture-record {
+  display: flex;
+  height: 36px;
+}
+.light .capture-container .capture-record .img-container {
+  width: 36px;
+  padding: 7px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+.light .capture-container .capture-record .capture {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  width: 144px;
+  text-align: center;
+  padding-top: 7px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+.light .btn-terminar {
+  cursor: pointer;
+  background: #FF6161;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+  width: 144px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+}
+.light .contador {
+  padding: 6px;
+  visibility: hidden;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  width: 144px;
+  height: 36px;
+}
+.light .container-finish {
+  display: none;
+}
+.light .img-giff {
+  width: 100%;
+}
+.light .btn-grabar-giff {
+  cursor: pointer;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  width: 144px;
+  height: 36px;
+  padding: 7px;
+  padding-left: 6px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+  margin-left: 370px;
+}
+.light .btn-subir-giff {
+  cursor: pointer;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  width: 144px;
+  height: 36px;
+  padding: 7px;
+  padding-left: 3px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+.light .finish-actions {
+  flex-direction: column;
+  display: none;
+  justify-content: flex-start;
+  padding: 16px 14px;
+}
+.light .copy-gif, .light .dowload-gif {
+  cursor: pointer;
+  margin: 10px 0;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  height: 36px;
+  width: 256px;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+  padding-top: 8px;
+}
+.light .finish-ready {
+  cursor: pointer;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+  width: 144px;
+  height: 36px;
+  padding-top: 8px;
+}
+.light .container-my-giffos {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.light .wrapper-my-giff {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.light .my-giff-giff {
+  max-width: 288px;
+  height: 298px;
+  width: 100%;
+}
+.light .loading {
+  display: flex;
+  margin: 20px;
+  width: 250px;
+  height: 20px;
+}
+.light .step-load {
+  flex: 1;
+  background-color: gray;
+}
+.light .step-load-active {
+  background-color: #F7C9F3;
+}
+.light .container-loading {
+  display: none;
+  align-items: center;
+  border-left: 1px solid #000;
+  width: 100%;
+  height: 300px;
+  border-top: 1px solid #000;
+  flex-direction: column;
+  background-color: #FFF;
+  justify-content: center;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.75);
+}
+
+/*# sourceMappingURL=light.css.map */
